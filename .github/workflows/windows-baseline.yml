@@ -1,6 +1,8 @@
 name: Unchanged Windows baseline
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
 env:
   WIN_GRAPHVIZ_DIR: "C:\\Program Files\\Graphviz"
 jobs:
